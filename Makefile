@@ -1,5 +1,5 @@
 clean-pycache:
-	find -type d -name '__pycache__' -exec rm -rf {} +
+	find ./ -type d -name '__pycache__' -exec rm -rf {} +
 
 get-data:
 	wget -O data/label.csv https://raw.githubusercontent.com/wayfair/WANDS/main/dataset/label.csv 
