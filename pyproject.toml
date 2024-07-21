@@ -4,13 +4,23 @@ version = "0.1.0"
 description = ""
 authors = ["jjovalle99 <jj.ovalle@uniandes.edu.co>"]
 readme = "README.md"
+packages = [{include = "src"}]
 
 [tool.poetry.dependencies]
 python = "~3.11"
+pandas = "^2.2.2"
+numpy = "^2.0.0"
+scikit-learn = "^1.5.1"
+openai = "^1.36.1"
+pydantic-settings = "^2.3.4"
 
 
 [tool.poetry.group.dev.dependencies]
 ipykernel = "^6.29.5"
+
+
+[tool.poetry.group.format.dependencies]
+ruff = "^0.5.4"
 
 [build-system]
 requires = ["poetry-core"]
