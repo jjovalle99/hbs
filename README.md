@@ -1,4 +1,4 @@
-# HSB Take-home Assignment
+# HBS Take-home Assignment
 #### Author: Juan Ovalle
 
 ## Overview
